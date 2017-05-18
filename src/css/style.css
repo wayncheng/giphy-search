@@ -1,0 +1,100 @@
+.container {
+	width: 96%;
+	padding: 0 2%;
+	max-width: 1400px;
+	margin: 0;
+	text-align: center;
+}
+#form-container {
+	max-width: 100vw;
+	background-color: #34495e;
+	font-size: 20px;
+	line-height: 2em;
+	height: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	position: relative;
+}
+div#btn-container {
+	background-color: #ECF0F1;
+	padding: 30px 5%;
+	width: 90%;
+	max-width: 90%;
+}
+
+button {
+	font-size: 18px;
+	line-height: 2em;
+	height: 2em;
+	background-color: #34495e;
+	color: #fff;
+	font-weight: 300;
+	/*color: #333;*/
+	padding: 0 1em;
+	outline: none;
+	border: none;
+	margin: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+form {
+	position: relative;
+	width: initial;
+	display: inline-block;
+	overflow: hidden;
+}
+input {
+	font-size: inherit;
+	height: 100%;
+	line-height: 100%;
+	margin: 0;
+	padding: 0;
+	text-indent: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	display: inline-block;
+
+}
+form button {
+	margin: 0;
+	background-color: #e74c3c;
+	padding: 0;
+	font-size: 30px;
+	height: 100%;
+	line-height: 100%;
+	width:  42px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+form, input { 
+	/*font-size: inherit;*/
+	height: 40px;
+	line-height: 40px;
+}
+
+#feed {
+	text-align: center;
+}
+
+div.item-wrap {
+	width: initial;
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+p.caption {
+	margin: 0;
+	/*font-family: 'courier new', 'courier', monospace;*/
+	/*font-family: 'cutive mono', monospace;*/
+	font-family: 'Roboto Slab';
+	font-weight: 300;
+	text-align: left;
+	font-size: 13px;
+}
+
+img.media {
+	cursor: pointer;
+}
